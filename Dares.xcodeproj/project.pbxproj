@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A138DFCA2645386300B4A55C /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DFC92645386300B4A55C /* RoundedCorners.swift */; };
 		A1BBA8CA2643ECC8009382AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBA8C92643ECC8009382AB /* AppDelegate.swift */; };
 		A1BBA8CC2643ECC8009382AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBA8CB2643ECC8009382AB /* SceneDelegate.swift */; };
 		A1BBA8CE2643ECC8009382AB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBA8CD2643ECC8009382AB /* WelcomeViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7EDA3CF5A9E999012F0D2900 /* Pods-Dares.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dares.release.xcconfig"; path = "Target Support Files/Pods-Dares/Pods-Dares.release.xcconfig"; sourceTree = "<group>"; };
+		A138DFC92645386300B4A55C /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		A1BBA8C62643ECC8009382AB /* Dares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dares.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BBA8C92643ECC8009382AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BBA8CB2643ECC8009382AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +62,6 @@
 				D32BEAB6073B2C1DB8E9A944 /* Pods-Dares.debug.xcconfig */,
 				7EDA3CF5A9E999012F0D2900 /* Pods-Dares.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -100,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A1BBA8CF2643ECC8009382AB /* Main.storyboard */,
+				A138DFC92645386300B4A55C /* RoundedCorners.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,6 +234,7 @@
 				A1BBA8CE2643ECC8009382AB /* WelcomeViewController.swift in Sources */,
 				A1BBA8CA2643ECC8009382AB /* AppDelegate.swift in Sources */,
 				A1BBA8CC2643ECC8009382AB /* SceneDelegate.swift in Sources */,
+				A138DFCA2645386300B4A55C /* RoundedCorners.swift in Sources */,
 				A1BBA8EE264401EB009382AB /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
