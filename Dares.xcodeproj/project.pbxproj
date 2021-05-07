@@ -15,9 +15,11 @@
 		A1BBA8D62643ECC9009382AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BBA8D42643ECC9009382AB /* LaunchScreen.storyboard */; };
 		A1BBA8EB264401CE009382AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBA8EA264401CE009382AB /* LoginViewController.swift */; };
 		A1BBA8EE264401EB009382AB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBA8ED264401EB009382AB /* SignUpViewController.swift */; };
+		CCBB8108CF6897B4CB6A6F7A /* Pods_Dares.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A72AEE6A78D38328827B7A /* Pods_Dares.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EDA3CF5A9E999012F0D2900 /* Pods-Dares.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dares.release.xcconfig"; path = "Target Support Files/Pods-Dares/Pods-Dares.release.xcconfig"; sourceTree = "<group>"; };
 		A1BBA8C62643ECC8009382AB /* Dares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dares.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BBA8C92643ECC8009382AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BBA8CB2643ECC8009382AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		A1BBA8D72643ECC9009382AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BBA8EA264401CE009382AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A1BBA8ED264401EB009382AB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C2A72AEE6A78D38328827B7A /* Pods_Dares.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dares.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32BEAB6073B2C1DB8E9A944 /* Pods-Dares.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dares.debug.xcconfig"; path = "Target Support Files/Pods-Dares/Pods-Dares.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBB8108CF6897B4CB6A6F7A /* Pods_Dares.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81901A53249CDB96292E0442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A72AEE6A78D38328827B7A /* Pods_Dares.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CA200AD1340506B39E0C2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32BEAB6073B2C1DB8E9A944 /* Pods-Dares.debug.xcconfig */,
+				7EDA3CF5A9E999012F0D2900 /* Pods-Dares.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A1BBA8BD2643ECC8009382AB = {
 			isa = PBXGroup;
 			children = (
 				A1BBA8C82643ECC8009382AB /* Dares */,
 				A1BBA8C72643ECC8009382AB /* Products */,
+				9CA200AD1340506B39E0C2BC /* Pods */,
+				81901A53249CDB96292E0442 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1BBA8DA2643ECC9009382AB /* Build configuration list for PBXNativeTarget "Dares" */;
 			buildPhases = (
+				A40C9ACA091A45441F08C766 /* [CP] Check Pods Manifest.lock */,
 				A1BBA8C22643ECC8009382AB /* Sources */,
 				A1BBA8C32643ECC8009382AB /* Frameworks */,
 				A1BBA8C42643ECC8009382AB /* Resources */,
+				5E1E2571E0CFBA73B1DC69D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +180,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E1E2571E0CFBA73B1DC69D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dares/Pods-Dares-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dares/Pods-Dares-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dares/Pods-Dares-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40C9ACA091A45441F08C766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dares-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1BBA8C22643ECC8009382AB /* Sources */ = {
@@ -307,6 +376,7 @@
 		};
 		A1BBA8DB2643ECC9009382AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32BEAB6073B2C1DB8E9A944 /* Pods-Dares.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +396,7 @@
 		};
 		A1BBA8DC2643ECC9009382AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDA3CF5A9E999012F0D2900 /* Pods-Dares.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
