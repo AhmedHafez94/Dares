@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import JVFloatLabeledTextField
 
 class SignUpViewController: UIViewController {
 
