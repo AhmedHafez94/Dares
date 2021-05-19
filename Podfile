@@ -7,6 +7,11 @@ target 'Dares' do
 
   # Pods for Dares
 pod 'JVFloatLabeledTextField'
-pod 'SkyFloatingLabelTextField', '~> 3.0'
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod 'PhoneNumberKit', '~> 3.3'
+pod "FlagPhoneNumber"
+pod 'CountryPickerView'
+
 
 end
