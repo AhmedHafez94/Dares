@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gx0-bY-viG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wkl-ey-thJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -17,30 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="98v-Ex-9Bw">
-                                <rect key="frame" x="87" y="144" width="240" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="98v-Ex-9Bw">
+                                <rect key="frame" x="122.5" y="144" width="169" height="55"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="qDl-kV-dgB">
-                                <rect key="frame" x="41" y="263" width="332" height="288"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="qDl-kV-dgB">
+                                <rect key="frame" x="19.5" y="259" width="375" height="213"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="أهلا بعودتك" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSt-JJ-7hI">
-                                <rect key="frame" x="259" y="559" width="114" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أهلا بعودتك" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSt-JJ-7hI">
+                                <rect key="frame" x="286.5" y="477" width="86.5" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="سجل معنا لتتمتع بمزايا التطبيق" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57m-Lz-WRr">
-                                <rect key="frame" x="41" y="588" width="332" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سجل معنا لتتمتع بمزايا التطبيق" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57m-Lz-WRr">
+                                <rect key="frame" x="185.5" y="503" width="187.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6e-GA-GuX">
-                                <rect key="frame" x="96" y="788" width="223" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6e-GA-GuX">
+                                <rect key="frame" x="30" y="600" width="354" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="hDY-xS-3w8"/>
+                                </constraints>
                                 <state key="normal" title="ليس لديك حساب ">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -48,10 +46,12 @@
                                     <segue destination="gx0-bY-viG" kind="show" id="pTY-pY-Tqh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgi-jr-6kA">
-                                <rect key="frame" x="96" y="724" width="223" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgi-jr-6kA">
+                                <rect key="frame" x="30" y="536" width="354" height="54"/>
                                 <color key="backgroundColor" red="0.37647058823529411" green="0.41176470588235292" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="2yY-eI-eM4"/>
+                                </constraints>
                                 <state key="normal" title="تسجيل الدخول">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -62,6 +62,26 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="57m-Lz-WRr" secondAttribute="trailing" constant="41" id="17U-tA-KtN"/>
+                            <constraint firstItem="U6e-GA-GuX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="5t4-Dc-qpk"/>
+                            <constraint firstItem="qDl-kV-dgB" firstAttribute="top" secondItem="98v-Ex-9Bw" secondAttribute="bottom" constant="60" id="60u-T1-KcJ"/>
+                            <constraint firstItem="qDl-kV-dgB" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.237723" id="8Ce-LB-XGf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U6e-GA-GuX" secondAttribute="trailing" constant="30" id="Edf-0P-4Wk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cSt-JJ-7hI" secondAttribute="trailing" constant="41" id="Ge9-eB-3RG"/>
+                            <constraint firstItem="kgi-jr-6kA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="NPH-b1-DP8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kgi-jr-6kA" secondAttribute="trailing" constant="30" id="Q82-no-SHI"/>
+                            <constraint firstItem="cSt-JJ-7hI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="SoB-oN-i2Y"/>
+                            <constraint firstItem="57m-Lz-WRr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="Yhc-Yj-iSC"/>
+                            <constraint firstItem="kgi-jr-6kA" firstAttribute="top" secondItem="57m-Lz-WRr" secondAttribute="bottom" constant="15" id="a8q-Z5-aBB"/>
+                            <constraint firstItem="57m-Lz-WRr" firstAttribute="top" secondItem="cSt-JJ-7hI" secondAttribute="bottom" constant="5" id="c0Y-ny-LTS"/>
+                            <constraint firstItem="98v-Ex-9Bw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f3O-Y4-Bcn"/>
+                            <constraint firstItem="qDl-kV-dgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="quy-s3-hiM"/>
+                            <constraint firstItem="qDl-kV-dgB" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.905797" id="tWl-rG-0Th"/>
+                            <constraint firstItem="U6e-GA-GuX" firstAttribute="top" secondItem="kgi-jr-6kA" secondAttribute="bottom" constant="10" id="tnR-rV-Cna"/>
+                            <constraint firstItem="98v-Ex-9Bw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="v2M-eA-wRB"/>
+                            <constraint firstItem="cSt-JJ-7hI" firstAttribute="top" secondItem="qDl-kV-dgB" secondAttribute="bottom" constant="5" id="zZE-DH-RA0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3HO-FC-oYL"/>
                     <connections>
@@ -535,7 +555,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="pTY-pY-Tqh"/>
-        <segue reference="GZI-3I-nhP"/>
+        <segue reference="bWK-JP-SRt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="applelogo" catalog="system" width="128" height="121"/>
